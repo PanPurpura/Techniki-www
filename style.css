@@ -1,32 +1,139 @@
-.inf {
-    background-image: url(back.jpg);
-    width: 100%;
-    height: 500px;
-    color: white;
-    background-repeat: no-repeat;
-    background-size: cover;
+small{
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700;
 }
+
+.inf {
+    height: 600px;
+    /*height: auto;*/
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.19), rgba(74, 74, 77, 0.7)), url(img/back.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
 
 .team {
-    background-color:darkseagreen;
+    background-color: #1f1f1f;
     width: 100%;
-    height: 650px;
+    border-bottom: 1px solid white;
 }
 
-.pic1 {
-    align-self:center;
-    width: 200px;
-    height: 200px;
+.team .txt {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-.pic2 {
-    align-self: center;
-    width: 200px;
-    height: 200px;
+.inf .img-fluid {
+    margin-bottom: 30px;
+    margin-right: 30px;
 }
 
-.pic3 {
-    align-self: center;
-    width: 200px;
-    height: 200px;
+.navbar {
+    padding-left: 30px;
+    background: rgb(88,88,88);
+    background: radial-gradient(circle, rgba(88,88,88,1) 0%, rgba(88,88,88,0.9093838218881303) 35%, rgba(0,0,0,1) 100%);
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
+
+.navbar .navbar-nav{
+    padding-right: 30px;
+}
+
+.navbar .nav-link {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.inf .inf-text {
+    width: 500px;
+   /* align-self: flex-end;*/
+    /*margin-bottom: 10%;*/
+   /* margin-right: 16%;*/
+   /* align-items: center;*/
+    position: relative;
+    left: 20%;
+    text-align: center;
+}
+
+.inf .images {
+    /*margin-top: 5%;
+    align-self: flex-end;*/
+    position: relative;
+    left: 21%;
+    top: 10%;
+    height: auto;
+    width: auto;
+}
+
+.team-member .card {
+    float: left;
+}
+
+.team-member.even {
+    background-color: blue;
+}
+
+.team-member .card .card-body .hline {
+    width: 70px;
+    height: 2px;
+    margin: 16px auto;
+    background-color: black;
+}
+
+.team-member .card img,
+.team .card .social-icons {
+    transition: all 0.4s ease;
+}
+
+.team-member .card {
+    position: relative;
+    overflow: hidden;
+}
+
+.team-member .card .social-icons {
+    width: 100%;
+    height: 60px;
+    background-color: pink;
+    position: absolute;
+    bottom: -60px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-member .card .social-icons a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(255,255,255,0.5);
+    font-size: 24px;
+    color: white;
+    border-radius: 100px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.team-member .card .social-icons a:hover {
+    background-color: white;
+    color: pink;
+}
+
+.team-member:hover .card .social-icons {
+    bottom: 0;
+}
+/*
+.team-member:hover img{
+    transform: translateY(-60px);
+}*/
