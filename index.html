@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="pl" xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -11,194 +11,221 @@
 <body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/0135c55a9d.js" crossorigin="anonymous"></script>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="img/military_site.jpg" width="50" height="60" />
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Wyszukaj" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Wyszukaj</button>
-                </form>
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Sklep
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="bron_krotka.html">Broń krótka</a></li>
-                            <li><a class="dropdown-item" href="bron_dluga.html">Broń długa</a></li>
-                            <li><a class="dropdown-item" href="bron_historyczna.html">Broń historyczna</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="o_nas.html">O nas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="Licencja.html">Licencja</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/military_site.jpg" width="50" height="60" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <form class="d-flex search" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Wyszukaj" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Wyszukaj</button>
+                    </form>
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Typy broni
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="bron_krotka.html">Broń krótka</a></li>
+                                <li><a class="dropdown-item" href="bron_dluga.html">Broń długa</a></li>
+                                <li><a class="dropdown-item" href="bron_historyczna.html">Broń historyczna</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="o_nas.html">O nas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Licencja.html">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-    <section id="info">
-        <div class="inf">
-            <div class="inf-text">
-                <h1>Duży wybór broni</h1>
-                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique tincidunt enim, facilisis maximus dolor pellentesque quis.
-                    Mauris efficitur vestibulum ipsum. Praesent nisl leo, consequat nec tincidunt quis, efficitur sed eros.
-                    Donec dignissim tincidunt quam nec auctor. Phasellus eget dolor ligula. Fusce maximus in tortor eu eleifend.</h5>
-            </div>
-            <div class="images">
-                <a href="bron_krotka.html"><img src="img/wep1.jpg" class="img-fluid ms-auto" alt="..."></a>
-                <a href="bron_dluga.html"><img src="img/wep2.jpg" class="img-fluid ms-auto" alt="..."></a>
-                <a href="bron_historyczna.html"><img src="img/wep3.jpg" class="img-fluid ms-auto" alt="..."></a>
-            </div>
-        </div>
-    </section>
+        <div class = "Background">
 
-    <section id="tea" class="row g-0 py-0 text-center">
-    <!--    <div class="col-lg-3 col-sm-6 team-member">
-            <div class="team-member-img">
-                <img src="img/1.jpg" alt="">
-                <div class="social-icons">
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                </div>
-            </div>
-            <div class="p-4">
-                <h5 class="title-sm mb-0 text-white">John Foe</h5>
-                <small class="text-white">Web Designer</small>
-                <div class="hline"></div>
-                <p class="text-white">Well skillful ...</p>
-            </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 team-member even">
-            <div class="team-member-img">
-                <img src="img/5.jpg" alt="">
-                <div class="social-icons">
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                </div>
-            </div>
-            <div class="p-4">
-                <h5 class="title-sm mb-0 text-white">John Foe</h5>
-                <small class="text-white">Web Designer</small>
-                <div class="hline"></div>
-                <p class="text-white">Well skillful ...</p>
-            </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 team-member">
-            <div class="team-member-img">
-                <img src="img/4.jpg" alt="">
-                <div class="social-icons">
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                </div>
-            </div>
-            <div class="p-4">
-                <h5 class="title-sm mb-0 text-white">John Foe</h5>
-                <small class="text-white">Web Designer</small>
-                <div class="hline"></div>
-                <p class="text-white">Well skillful ...</p>
-            </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 team-member even">
-            <div class="team-member-img">
-                <img src="img/3.jpg" alt="">
-                <div class="social-icons">
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                </div>
-            </div>
-            <div class="p-4">
-                <h5 class="title-sm mb-0 text-white">John Foe</h5>
-                <small class="text-white">Web Designer</small>
-                <div class="hline"></div>
-                <p class="text-white">Well skillful ...</p>
-            </div>
-        </div>-->
-        <div class="team">
-            <h1 class="text-white txt">Nasi instruktorzy</h1>
-            <div class="team-member">
-                <div class="card" style="width: 25%;">
-                    <img src="img/1.jpg" class="card-img-top" alt="...">
-                    <div class="social-icons">
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="title-sm mb-0 text-black">Cecylia Mazur</h5>
-                        <small class="text-black">Specjalistka od broni krótkiej</small>
-                        <div class="hline"></div>
-                        <p class="card-text text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet facilisis nisi. Sed a magna lobortis lorem eleifend tempor vel eu diam.</p>
+            <div class="container-fluid text-center pt-5">
+                <div class="container">
+                    <div class="row d-flex justify-content-center">
+                        <div class=" col-12 col-sm-6 col-md-6 align-self-center">
+                            <h1 class="text-white">Witamy na Military Site!</h1>
+                            <h5 class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu luctus ipsum, rhoncus semper magna. Nulla nec magna sit amet sem interdum condimentum.</h5>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <img class="img-fluid Photo" src="img/strzelnica.jpeg">
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="team-member">
-                <div class="card" style="width: 25%;">
-                    <img src="img/2.jpg" class="card-img-top" alt="...">
-                    <div class="social-icons">
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="title-sm mb-0 text-black">Gracjan Wróblewski</h5>
-                        <small class="text-black">Specjalista od broni długiej</small>
-                        <div class="hline"></div>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet facilisis nisi. Sed a magna lobortis lorem eleifend tempor vel eu diam.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="team-member">
-                <div class="card" style="width: 25%;">
-                    <img src="img/3.jpg" class="card-img-top" alt="...">
-                    <div class="social-icons">
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="title-sm mb-0 text-black">Heronim Mazur</h5>
-                        <small class="text-black">Specjalista od broni historycznej</small>
-                        <div class="hline"></div>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet facilisis nisi. Sed a magna lobortis lorem eleifend tempor vel eu diam.</p>
+    
+    
+            <div class="container-fluid text-center py-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6 justify-content-center order-0">
+                            <img class="img-fluid Photo" src="img/zbrojownia.jpg">
+                        </div>
+                        <div class="col-12 col-md-6 align-self-center">
+                            <h1 class="text-white">Jesteśmy specjalistami</h1>
+                            <h5 class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu luctus ipsum, rhoncus semper magna. Nulla nec magna sit amet sem interdum condimentum.</h5>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="team-member">
-                <div class="card" style="width: 25%;">
-                    <img src="img/4.jpg" class="card-img-top" alt="...">
-                    <div class="social-icons">
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    </div>
-                    <div class="card-body">
-                        <h5 class="title-sm mb-0 text-black">Ewa Kamińska</h5>
-                        <small class="text-black">Specjalistka do spraw bezpieczeństwa</small>
-                        <div class="hline"></div>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet facilisis nisi. Sed a magna lobortis lorem eleifend tempor vel eu diam.</p>
-                    </div>
+    
+    
+            <div class="container-fluid inf pt-4">
+                <div class="row row-cols-1 text-center justify-content-center">
+                    <h1 class="col text-center">Duży wybór broni</h1>
+                    <h5 class="col-12 col-md-6 text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tristique tincidunt enim, facilisis maximus dolor pellentesque quis.
+                        Mauris efficitur vestibulum ipsum. Praesent nisl leo, consequat nec tincidunt quis, efficitur sed eros.
+                    </h5>
+                </div>
+                <div class="images row text-center py-5">
+                    <a href="bron_krotka.html" class="col-12 col-md-4"><img src="img/wep1.jpg" class="img-fluid ms-auto l_photo" alt="..."></a>
+                    <a href="bron_dluga.html" class="col-12 col-md-4"><img src="img/dl.jpg" class="img-fluid ms-auto l_photo" alt="..."></a>
+                    <a href="bron_historyczna.html" class="col-12 col-md-4"><img src="img/his.jpg" class="img-fluid ms-auto l_photo" alt="..."></a>
                 </div>
             </div>
         </div>
 
-    </section>
+        <div class = "Background">
+
+            <div class="container-fluid text-center pb-5">
+                <h1 class="text-white py-3">Nasi instruktorzy</h1>
+                <div class = "row d-flex justify-content-center">
+                    <div class="team-member col-8 col-md-6 col-lg-3">
+                        <div class="card one">
+                            <img src="img/1.jpg" class="card-img-top" alt="...">
+                            <div class="social-icons">
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                            <div class="card-body pb-5">
+                                <h5 class="title-sm mb-0 text-white">Cecylia Mazur</h5>
+                                <small class="text-white">Spec. od br. krótkiej</small>
+                                <div class="hline"></div>
+                                <p class="card-text text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet facilisis nisi. Sed a magna lobortis lorem eleifend tempor vel eu diam.</p>
+                            </div>
+                            <div class = "pb-4">
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-member col-8 col-md-6 col-lg-3">
+                        <div class="card two">
+                            <img src="img/2.jpg" class="card-img-top" alt="...">
+                            <div class="social-icons">
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                            <div class="card-body pb-5">
+                                <h5 class="title-sm mb-0 text-white">Gracjan Wróblewski</h5>
+                                <small class="text-white">Spec. od br. długiej</small>
+                                <div class="hline"></div>
+                                <p class="card-text text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet facilisis nisi. Sed a magna lobortis lorem eleifend tempor vel eu diam.</p>
+                            </div>
+                            <div class = "pb-4">
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-member col-8 col-md-6 col-lg-3">
+                        <div class="card one">
+                            <img src="img/3.jpg" class="card-img-top" alt="...">
+                            <div class="social-icons">
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                            <div class="card-body pb-5">
+                                <h5 class="title-sm mb-0 text-white">Heronim Mazur</h5>
+                                <small class="text-white">Spec. od br historycznej</small>
+                                <div class="hline"></div>
+                                <p class="card-text text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet facilisis nisi. Sed a magna lobortis lorem eleifend tempor vel eu diam.</p>
+                            </div>
+                            <div class = "pb-4">
+    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-member col-8 col-md-6 col-lg-3">
+                        <div class="card two">
+                            <img src="img/4.jpg" class="card-img-top" alt="...">
+                            <div class="social-icons">
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </div>
+                            <div class="card-body pb-5">
+                                <h5 class="title-sm mb-0 text-white">Ewa Kamińska</h5>
+                                <small class="text-white">Spec. ds bezp.</small>
+                                <div class="hline"></div>
+                                <p class="card-text text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet facilisis nisi. Sed a magna lobortis lorem eleifend tempor vel eu diam.</p>
+                            </div>
+                            <div class = "pb-4">
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class = "container-fluid">
+                <div class = "container">
+                    <div class="row">
+                        <h1 class="col-12 col-md-12 text-center text-white pb-4">Galeria</h1>
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/kafelek1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/kafelek3.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/kafelek4.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/kafelek5.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                        <div class = "pb-5">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="Footer container-fluid text-white py-1 pt-4">
+            <p class="fw-bold text-center align-self-center">Military Site Sp. z o.o. 2022 <img class="img-fluid" src="img/military_site.jpg" width="25" height="35"/></p>
+        </footer>
 </body>
 </html>
