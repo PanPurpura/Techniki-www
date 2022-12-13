@@ -35,6 +35,19 @@
 
 .card-img-top {
     object-fit: contain;
+    min-height: 150px;
+}
+
+@media only screen and (max-width: 1200px){
+    .shadow {
+        min-height: 470px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .shadow {
+        min-height: 400px;
+    }
 }
 
 .c_Photo, .l_photo {
@@ -55,6 +68,10 @@
 
 .card {
     border: 2px solid rgb(255, 255, 255);
+}
+
+.WP {
+    min-height: 300px;
 }
 
 .team-member .card .social-icons {
