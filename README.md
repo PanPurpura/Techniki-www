@@ -2,6 +2,6 @@
 Repozytorium zawierające projekt realizowany w ramach przedmiotu Techniki-www w latach 2022-2023
 Repozytorium zawiera stronę statyczną, którą należało przygotować w ramach pierwszego projektu.
 Wymagane były pełna responsywność przy korzystaniu z Bootstrap oraz semantyczna nawigacja.
-Poniżej umieszczam link do strony statycznej uruchomionej w github pages.
+Poniżej umieszczam link do strony statycznej uruchomionej na github pages.
 
 https://panpurpura.github.io/Techniki-www-pr1/
